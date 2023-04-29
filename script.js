@@ -464,3 +464,26 @@ const config = [
         }
     ]
 ]
+
+const container = document.createElement('div');
+document.body.appendChild(container);
+container.classList.add('container');
+
+function init() {
+    config.forEach(row => {
+        const rowDiv = document.createElement('div');
+        container.appendChild(rowDiv);
+        rowDiv.classList.add('row');
+        row.forEach(key => {
+            const div = document.createElement('div');
+            div.dataset.key = key.keyCode;
+            div.innerHTML = key.lang.en;
+            div.classList.add('key');
+            const style = key.style ? key.style : 'common';
+            div.classList.add(style);
+            rowDiv.appendChild(div);
+        })
+    })
+}
+
+init();
