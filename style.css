@@ -1,8 +1,10 @@
+.keyboard__cont {
+    text-align: center;
+}
+
 .keyboard {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 500px;
+    width: 100%;
+    height: 500px;
     padding: 5px 0;
     background: gray;
     box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
