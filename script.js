@@ -106,7 +106,8 @@ const config = [
             lang: {
                 en: 'tab',
                 ru: 'tab'
-            }
+            },
+            style : "special"
         },
         {
             keyCode: 81,
@@ -204,7 +205,8 @@ const config = [
             lang: {
                 en: 'del',
                 ru: 'del'
-            }
+            },
+            style : "special"
         },
     ],
     [
@@ -404,6 +406,7 @@ const config = [
                 en: 'Ctrl',
                 ru: 'Ctrl'
             },
+            style : "special"
         },
         {
             keyCode: 91,
@@ -411,6 +414,7 @@ const config = [
                 en: 'Win',
                 ru: 'Win'
             },
+            style : "special"
         },
         {
             keyCode: 18,
@@ -418,14 +422,15 @@ const config = [
                 en: 'Alt',
                 ru: 'Alt'
             },
+            style : "special"
         },
         {
             keyCode: 32,
             lang: {
-                en: 'Space',
+                en: '',
                 ru: 'Space'
             },
-            style: 'space'
+            style : "space"
         },
         {
             keyCode: 18,
@@ -433,6 +438,7 @@ const config = [
                 en: 'Alt',
                 ru: 'Alt'
             },
+            style : "special"
         },
         {
             keyCode: 37,
@@ -461,6 +467,7 @@ const config = [
                 en: 'Ctrl',
                 ru: 'Ctrl'
             },
+            style : "special"
         }
     ]
 ]
