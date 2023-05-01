@@ -5,7 +5,8 @@ const config = [
             lang: {
                 ru: '~',
                 en: '`'
-            }
+            },
+            type: 'letter'
         },
         {
             keyCode: 49,
@@ -13,6 +14,7 @@ const config = [
                 ru: '1',
                 en: '1'
             },
+            type: 'letter'
         },
         {
             keyCode: 50,
@@ -20,6 +22,7 @@ const config = [
                 ru: '2',
                 en: '2'
             },
+            type: 'letter'
         },
         {
             keyCode: 51,
@@ -27,6 +30,7 @@ const config = [
                 ru: '3',
                 en: '3'
             },
+            type: 'letter'
         },
         {
             keyCode: 52,
@@ -34,6 +38,7 @@ const config = [
                 ru: '4',
                 en: '4'
             },
+            type: 'letter'
         },
         {
             keyCode: 53,
@@ -41,6 +46,7 @@ const config = [
                 ru: '5',
                 en: '5'
             },
+            type: 'letter'
         },
         {
             keyCode: 54,
@@ -48,6 +54,7 @@ const config = [
                 ru: '6',
                 en: '6'
             },
+            type: 'letter'
         },
         {
             keyCode: 55,
@@ -55,6 +62,7 @@ const config = [
                 ru: '7',
                 en: '7'
             },
+            type: 'letter'
         },
         {
             keyCode: 56,
@@ -62,6 +70,7 @@ const config = [
                 ru: '8',
                 en: '8'
             },
+            type: 'letter'
         },
         {
             keyCode: 57,
@@ -69,6 +78,7 @@ const config = [
                 ru: '9',
                 en: '9'
             },
+            type: 'letter'
         },
         {
             keyCode: 58,
@@ -76,6 +86,7 @@ const config = [
                 ru: '0',
                 en: '0'
             },
+            type: 'letter'
         },
         {
             keyCode: 189,
@@ -83,6 +94,7 @@ const config = [
                 ru: '-',
                 en: '-'
             },
+            type: 'letter'
         },
         {
             keyCode: 187,
@@ -90,108 +102,122 @@ const config = [
                 en: '=',
                 ru: '='
             },
+            type: 'letter'
         },
         {
             keyCode: 8,
             lang: {
-                en: 'backspace',
-                ru: 'backspace'
+                en: 'Backspace',
+                ru: 'Backspace'
             },
-            style: 'backspace'
+            style: 'backspace',
+            type: 'backspace'
         }
     ],
     [
         {
             keyCode: 9,
             lang: {
-                en: 'tab',
-                ru: 'tab'
+                en: 'Tab',
+                ru: 'Tab'
             },
-            style : "special"
+            style: "special"
         },
         {
             keyCode: 81,
             lang: {
                 en: 'q',
                 ru: 'й',
-            }
+            },
+            type: 'letter'
         },
         {
             keyCode: 87,
             lang: {
                 en: 'w',
                 ru: 'ц'
-            }
+            },
+            type: 'letter'
         },
         {
             keyCode: 69,
             lang: {
                 en: 'e',
                 ru: 'у'
-            }
+            },
+            type: 'letter'
         },
         {
             keyCode: 82,
             lang: {
                 en: 'r',
                 ru: 'к'
-            }
+            },
+            type: 'letter'
         },
         {
             keyCode: 84,
             lang: {
                 en: 't',
                 ru: 'е'
-            }
+            },
+            type: 'letter'
         },
         {
             keyCode: 89,
             lang: {
                 en: 'y',
                 ru: 'н'
-            }
+            },
+            type: 'letter'
         },
         {
             keyCode: 85,
             lang: {
                 en: 'u',
                 ru: 'г'
-            }
+            },
+            type: 'letter'
         },
         {
             keyCode: 73,
             lang: {
                 en: 'i',
                 ru: 'ш'
-            }
+            },
+            type: 'letter'
         },
         {
             keyCode: 79,
             lang: {
                 en: 'o',
                 ru: 'щ'
-            }
+            },
+            type: 'letter'
         },
         {
             keyCode: 80,
             lang: {
                 en: 'p',
                 ru: 'з'
-            }
+            },
+            type: 'letter'
         },
         {
             keyCode: 219,
             lang: {
                 en: '[',
                 ru: 'х'
-            }
+            },
+            type: 'letter'
         },
         {
             keyCode: 221,
             lang: {
                 en: ']',
                 ru: 'ъ'
-            }
+            },
+            type: 'letter'
         },
         {
             keyCode: 220,
@@ -203,10 +229,11 @@ const config = [
         {
             keyCode: 46,
             lang: {
-                en: 'del',
-                ru: 'del'
+                en: 'Del',
+                ru: 'Del'
             },
-            style : "special"
+            style: "special",
+            type: "delete"
         },
     ],
     [
@@ -216,77 +243,88 @@ const config = [
                 en: 'CapsLock',
                 ru: 'CapsLock'
             },
-            style: 'capslock'
+            style: 'capslock',
+            type: 'capslock'
         },
         {
             keyCode: 65,
             lang: {
                 en: 'a',
                 ru: 'ф'
-            }
+            },
+            type: 'letter'
         },
         {
             keyCode: 83,
             lang: {
                 en: 's',
                 ru: 'ы'
-            }
+            },
+            type: 'letter'
         },
         {
             keyCode: 68,
             lang: {
                 en: 'd',
                 ru: 'в'
-            }
+            },
+            type: 'letter'
         },
         {
             keyCode: 70,
             lang: {
                 en: 'f',
                 ru: 'а'
-            }
+            },
+            type: 'letter'
         },
         {
             keyCode: 71,
             lang: {
                 en: 'g',
                 ru: 'п'
-            }
+            },
+            type: 'letter'
         },
         {
             keyCode: 72,
             lang: {
                 en: 'h',
                 ru: 'р'
-            }
+            },
+            type: 'letter'
         },
         {
             keyCode: 74,
             lang: {
                 en: 'j',
                 ru: 'о'
-            }
+            },
+            type: 'letter'
         },
         {
             keyCode: 75,
             lang: {
                 en: 'k',
                 ru: 'л'
-            }
+            },
+            type: 'letter'
         },
         {
             keyCode: 76,
             lang: {
                 en: 'l',
                 ru: 'д'
-            }
+            },
+            type: 'letter'
         },
         {
             keyCode: 186,
             lang: {
                 en: ';',
                 ru: 'ж'
-            }
+            },
+            type: 'letter'
         },
         {
             keyCode: 222,
@@ -294,6 +332,7 @@ const config = [
                 en: '\'',
                 ru: 'э'
             },
+            type: 'letter'
         },
         {
             keyCode: 13,
@@ -301,7 +340,8 @@ const config = [
                 en: 'Enter',
                 ru: 'Enter'
             },
-            style: 'enter'
+            style: 'enter',
+            type: 'enter'
         }
     ],
     [
@@ -311,7 +351,8 @@ const config = [
                 en: 'Shift',
                 ru: 'Shift'
             },
-            style: 'shift'
+            style: 'shift',
+            type: 'shift'
         },
         {
             keyCode: 90,
@@ -319,6 +360,7 @@ const config = [
                 en: 'z',
                 ru: 'я'
             },
+            type: 'letter'
         },
         {
             keyCode: 88,
@@ -326,6 +368,7 @@ const config = [
                 en: 'x',
                 ru: 'ч'
             },
+            type: 'letter'
         },
         {
             keyCode: 67,
@@ -333,6 +376,7 @@ const config = [
                 en: 'c',
                 ru: 'с'
             },
+            type: 'letter'
         },
         {
             keyCode: 86,
@@ -340,6 +384,7 @@ const config = [
                 en: 'v',
                 ru: 'м'
             },
+            type: 'letter'
         },
         {
             keyCode: 66,
@@ -347,6 +392,7 @@ const config = [
                 en: 'b',
                 ru: 'и'
             },
+            type: 'letter'
         },
         {
             keyCode: 78,
@@ -354,6 +400,7 @@ const config = [
                 en: 'n',
                 ru: 'т'
             },
+            type: 'letter'
         },
         {
             keyCode: 77,
@@ -361,6 +408,7 @@ const config = [
                 en: 'm',
                 ru: 'ь'
             },
+            type: 'letter'
         },
         {
             keyCode: 188,
@@ -375,6 +423,7 @@ const config = [
                 en: '.',
                 ru: 'ю'
             },
+            type: 'letter'
         },
         {
             keyCode: 191,
@@ -389,6 +438,7 @@ const config = [
                 en: 'Up',
                 ru: 'Up'
             },
+            style: "special"
         },
         {
             keyCode: 16,
@@ -406,7 +456,7 @@ const config = [
                 en: 'Ctrl',
                 ru: 'Ctrl'
             },
-            style : "special"
+            style: "special"
         },
         {
             keyCode: 91,
@@ -414,7 +464,7 @@ const config = [
                 en: 'Win',
                 ru: 'Win'
             },
-            style : "special"
+            style: "special"
         },
         {
             keyCode: 18,
@@ -422,15 +472,16 @@ const config = [
                 en: 'Alt',
                 ru: 'Alt'
             },
-            style : "special"
+            style: "special"
         },
         {
             keyCode: 32,
             lang: {
                 en: '',
-                ru: 'Space'
+                ru: ''
             },
-            style : "space"
+            style: "space",
+            type: 'space'
         },
         {
             keyCode: 18,
@@ -438,7 +489,7 @@ const config = [
                 en: 'Alt',
                 ru: 'Alt'
             },
-            style : "special"
+            style: "special"
         },
         {
             keyCode: 37,
@@ -446,6 +497,7 @@ const config = [
                 en: 'Left',
                 ru: 'Left'
             },
+            style: "special"
         },
         {
             keyCode: 40,
@@ -453,6 +505,7 @@ const config = [
                 en: 'Down',
                 ru: 'Down'
             },
+            style: "special"
         },
         {
             keyCode: 39,
@@ -460,6 +513,7 @@ const config = [
                 en: 'Right',
                 ru: 'Right'
             },
+            style: "special"
         },
         {
             keyCode: 17,
@@ -467,14 +521,23 @@ const config = [
                 en: 'Ctrl',
                 ru: 'Ctrl'
             },
-            style : "special"
+            style: "special"
         }
     ]
 ]
 
 const container = document.createElement('div');
+const textarea = document.getElementById('textarea');
+const languages = ['en', 'ru'];
+let isCapsLock = false;
+let language = 'en';
+let isShift = false;
 document.body.appendChild(container);
 container.classList.add('container');
+
+let callbackList = [
+
+]
 
 function init() {
     config.forEach(row => {
@@ -484,11 +547,18 @@ function init() {
         row.forEach(key => {
             const div = document.createElement('div');
             div.dataset.key = key.keyCode;
+            div.dataset.keyType = key.type ? key.type : 'none';
+            div.dataset.enKey = key.lang.en;
+            div.dataset.ruKey = key.lang.ru;
             div.innerHTML = key.lang.en;
             div.classList.add('key');
             const style = key.style ? key.style : 'common';
             div.classList.add(style);
             rowDiv.appendChild(div);
+            console.log(div.dataset.keyType);
+            div.addEventListener('mousedown', () => mousedown(div));
+            div.addEventListener('mouseup', () => mouseup(div));
+            div.addEventListener('mouseout', () => div.classList.remove('pressed'));
         })
     })
 }
@@ -501,7 +571,7 @@ window.addEventListener('keydown', (event) => {
     if (!key) return;
 
     key.classList.add('pressed');
- 
+
 })
 
 window.addEventListener('keyup', (event) => {
@@ -511,3 +581,102 @@ window.addEventListener('keyup', (event) => {
 
     key.classList.remove('pressed');
 })
+
+function mousedown(key) {
+    key.classList.add('pressed');
+}
+
+function mouseup(key) {
+    key.classList.remove('pressed');
+    parseKey(key);
+}
+
+function parseKey(key) {
+    if (key.dataset.keyType === 'letter') {
+        let value = getKeyByLanguage(key)
+        value = isCapsLock ? value.toUpperCase() : value.toLowerCase();
+        insertTextAtCursor(textarea, value);
+    } else if (key.dataset.keyType === 'space') {
+        insertTextAtCursor(textarea, ' ');
+    } else if (key.dataset.keyType === 'enter') {
+        insertTextAtCursor(textarea, '\n');
+    } else if (key.dataset.keyType === 'backspace') {
+        const selectionStart = textarea.selectionStart;
+        if (selectionStart === 0) return;
+        textarea.value = deleteLastSymbol(textarea.value);
+        textarea.focus();
+        textarea.selectionStart = selectionStart - 1;
+        textarea.selectionEnd = selectionStart - 1;
+    } else if (key.dataset.keyType === 'capslock') {
+        setCapsLock();
+        setCaseToKeys();
+    } else if (key.dataset.keyType === 'delete') {
+        const selectionStart = textarea.selectionStart;
+        textarea.value = deletePrevSymbol(textarea.value);
+        textarea.focus();
+        textarea.selectionStart = selectionStart;
+        textarea.selectionEnd = selectionStart;
+    }
+}
+
+function setCapsLock() {
+    isCapsLock = !isCapsLock;
+}
+
+function insertTextAtCursor(element, text) {
+    element.focus();
+    const startPos = element.selectionStart;
+    const endPos = element.selectionEnd;
+    element.value =
+        element.value.substring(0, startPos) +
+        text +
+        element.value.substring(endPos, element.value.length);
+    element.selectionStart = element.selectionEnd = startPos + text.length;
+}
+
+function getKeyByLanguage(key) {
+    return key.dataset[`${language}Key`];
+}
+
+document.addEventListener('keydown', (event) => {
+    if (event.ctrlKey && event.altKey) setLanguage();
+})
+
+function setLanguage() {
+    const index = languages.indexOf(language) === 0 ? 1 : 0;
+    language = languages[index];
+    console.log(language);
+    changeKeyByLang();
+    setCaseToKeys();
+}
+
+function changeKeyByLang() {
+    const allKeys = Array.from(document.querySelectorAll('.key'));
+    allKeys.forEach(key => {
+        key.innerHTML = key.dataset[`${language}Key`];
+    })
+}
+
+function deleteLastSymbol(text) {
+    return text.slice(0, textarea.selectionStart - 1) + text.slice(textarea.selectionStart);
+}
+
+function deletePrevSymbol(text) {
+    return text.slice(0, textarea.selectionStart) + text.slice(textarea.selectionStart + 1);
+}
+
+function setCaseToKeys() {
+    const allKeys = Array.from(document.querySelectorAll('.key'));
+    allKeys.forEach(key => {
+        if (key.dataset.keyType === 'letter') {
+            key.innerHTML = isCapsLock ? key.innerHTML.toUpperCase() : key.innerHTML.toLowerCase();
+        }
+    })
+}
+
+textarea.addEventListener('keypress', () => console.log('keypress'));
+textarea.addEventListener('change', () => console.log('change'));
+
+
+
+
