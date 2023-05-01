@@ -494,3 +494,20 @@ function init() {
 }
 
 init();
+
+window.addEventListener('keydown', (event) => {
+    const keyCode = event.keyCode.toString();
+    const key = document.querySelector(`[data-key="${keyCode}"]`);
+    if (!key) return;
+
+    key.classList.add('pressed');
+ 
+})
+
+window.addEventListener('keyup', (event) => {
+    const keyCode = event.keyCode.toString();
+    const key = document.querySelector(`[data-key="${keyCode}"]`);
+    if (!key) return;
+
+    key.classList.remove('pressed');
+})
