@@ -1,0 +1,76 @@
+h1{
+    font-size: 22px;
+    color: gray;
+}
+
+textarea {
+    width: 100%;
+}
+
+.container {
+    background-color: rgb(172, 169, 169);
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.key {
+    border: 1px solid  rgb(245, 63, 63);
+    margin-left: 5px;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+    color: white;
+}
+
+.common {
+    width: 50px;
+    height: 50px;
+}
+
+.backspace {
+    width: 107px;
+    height: 50px;
+    background-color: rgb(83, 82, 82);
+}
+
+.capslock {
+    width: 107px;
+    height: 50px;
+    background-color: rgb(83, 82, 82);
+}
+
+.enter {
+    width: 107px;
+    height: 50px;
+    background-color: rgb(83, 82, 82);
+}
+
+.shift {
+    width: 107px;
+    height: 50px;
+    background-color: rgb(83, 82, 82);
+}
+
+.space {
+    width: 392px;
+    height: 50px;
+    background-color: rgb(83, 82, 82);
+}
+
+.special {
+    width: 50px;
+    height: 50px;
+    background-color: rgb(83, 82, 82);
+}
+
+.pressed {
+    background-color: red;
+    border-radius: 35%;
+}
